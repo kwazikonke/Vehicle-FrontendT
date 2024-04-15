@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vehicle Registration</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div class="container">
+    <h1 class="text-center">Vehicle Registration</h1>
+    
+    <form id="registrationForm">
+        <div class="mb-3">
+            <label for="vehicleNumber" class="form-label">Vehicle Number:</label>
+            <input type="text" id="vehicleNumber" required class="form-control" placeholder="Vehicle Number">
+        </div>
+    
+        <div class="mb-3">
+            <label class="form-label" for="vehicleName">Vehicle Name:</label>
+            <input type="text" id="vehicleName" required class="form-control" placeholder="Vehicle Name">
+        </div>
+    
+        <div class="mb-3">
+            <label for="vehicleModel" class="form-label">Vehicle Model:</label>
+            <input type="text" id="vehicleModel" required class="form-control" placeholder="Vehicle Model">
+        </div>
+    
+        <button type="submit" class="btn btn-success">Register</button>
+    </form>
+    
+    <div id="map">
+        
+    </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
